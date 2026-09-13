@@ -127,3 +127,50 @@ section{
     font-size: 200px;
 }
 
+/* MOBILE FIX - For phones */
+@media (max-width: 768px) {
+
+    body {
+        font-size: 15px; /* Smaller base font */
+    }
+
+    .container {
+        padding: 16px; /* Less space on sides */
+    }
+
+    header {
+        padding: 24px 16px; /* Smaller header */
+    }
+
+    header h1 {
+        font-size: 26px; /* Was 36px, now smaller */
+    }
+
+    section {
+        padding: 20px; /* Cards less padding */
+        margin: 20px 0;
+    }
+
+    h2 {
+        font-size: 20px; /* Section titles smaller */
+    }
+
+    .gallery {
+        grid-template-columns: 1fr 1fr; /* 2 images per row */
+        gap: 12px;
+    }
+
+    .prices li {
+        font-size: 15px;
+        padding: 12px;
+    }
+
+    .whatsapp-btn {
+        width: 100%; /* Full width button, easy to tap */
+        font-size: 16px;
+        padding: 14px;
+        box-sizing: border-box; 
+    }
+}
+    
+    @
